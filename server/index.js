@@ -13,7 +13,8 @@ module.exports = {
             backend: 'sqlite',
             connectionParams: { dbPath: 'test.db' },
             staticPath: './www',
-            models: require('../models')
+            models: require('../models'),
+            config: require('../config')
         })
 
         await this.postStart();

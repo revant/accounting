@@ -14,7 +14,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 @-ms-viewport {
   width: device-width; }
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -7292,7 +7292,7 @@ mark {
 .tree-body {
   padding: 1rem 2rem; }
 f-tree-node {
-  --tree-node-hover: #f8f9fa; }
+  --tree-node-hover: $gray-100; }
 .datatable *, .datatable *::after, .datatable *::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -7468,9 +7468,6 @@ f-tree-node {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
-.dt-paste-target {
-  position: fixed;
-  left: -999em; }
 body.dt-resize {
   cursor: col-resize; }
 .dt-header {
